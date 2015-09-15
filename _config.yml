@@ -1,6 +1,21 @@
-# Site settings
+#
+# This file contains configuration flags to customize your site
+#
+
+# Name of your site (displayed in the header)
+name: Red War Wizards
+
+# Short bio or description (displayed in the header)
 description: From Clash of Clans
-baseurl: "" # the subpath of your site, e.g. /blog/
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: ""
+
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
 url: "https://rwwcoc.github.io" # the base hostname & protocol for your site 
 
 # User settings
@@ -8,7 +23,7 @@ username: rwwcoc
 user_description: Red War Wizards
 user_title: Red War Wizards
 email: rwwcoc@gmail.com
-github_username:  rwwcoc
+github_username: rwwcoc
 
 # Build settings
 markdown: kramdown
@@ -35,5 +50,24 @@ links:
   - title: About Me
     url: /about
 
+#
+# !! You don't need to change any of the configuration flags below !!
+#
+
+# The release of Jekyll Now that you're using
+version: v1.1.0
+
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+
+# Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - CNAME
