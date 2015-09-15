@@ -1,17 +1,17 @@
 # Site settings
 description: A blog about lorem ipsum dolor sit amet
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site 
+url: "https://rwwcoc.github.io" # the base hostname & protocol for your site 
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
+username: rwwcoc
+user_description: Red War Wizards
+user_title: Red War Wizards
 email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+twitter_username:
+github_username:  rwwcoc
+gplus_username:
+disqus_username:
 
 # Build settings
 markdown: kramdown
