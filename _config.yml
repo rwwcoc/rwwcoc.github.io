@@ -1,5 +1,5 @@
 # Site settings
-description: A blog about lorem ipsum dolor sit amet
+description: From Clash of Clans
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://rwwcoc.github.io" # the base hostname & protocol for your site 
 
@@ -7,11 +7,8 @@ url: "https://rwwcoc.github.io" # the base hostname & protocol for your site
 username: rwwcoc
 user_description: Red War Wizards
 user_title: Red War Wizards
-email: anon@anon.com
-twitter_username:
+email: rwwcoc@gmail.com
 github_username:  rwwcoc
-gplus_username:
-disqus_username:
 
 # Build settings
 markdown: kramdown
